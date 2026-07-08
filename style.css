@@ -1,0 +1,377 @@
+/* ==========================
+   Google Font
+========================== */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;800&display=swap');
+
+/* ==========================
+   Reset
+========================== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:"Noto Sans TC",sans-serif;
+
+    background:#f8fafc;
+
+    color:#1f2937;
+
+    line-height:1.7;
+
+}
+
+/* ==========================
+   Container
+========================== */
+
+.container{
+
+    width:min(1120px,92%);
+
+    margin:auto;
+
+}
+
+/* ==========================
+   Header
+========================== */
+
+.header{
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+
+    background:rgba(255,255,255,.92);
+
+    backdrop-filter:blur(16px);
+
+    border-bottom:1px solid #ececec;
+
+}
+
+.header .container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 0;
+
+}
+
+/* ==========================
+   Logo
+========================== */
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+    text-decoration:none;
+
+}
+
+.logo-icon{
+
+    width:52px;
+
+    height:52px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:16px;
+
+    background:#2563eb;
+
+    color:#fff;
+
+    font-size:24px;
+
+}
+
+.logo-text h2{
+
+    font-size:22px;
+
+    color:#111827;
+
+    font-weight:800;
+
+}
+
+.logo-text span{
+
+    font-size:14px;
+
+    color:#6b7280;
+
+}
+
+/* ==========================
+   LINE Button
+========================== */
+
+.line-btn{
+
+    background:#06C755;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    padding:14px 28px;
+
+    border-radius:14px;
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.line-btn:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 12px 30px rgba(6,199,85,.25);
+
+}
+
+/* ==========================
+   HERO
+========================== */
+
+.hero{
+
+    padding:90px 0;
+
+}
+
+.hero-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    align-items:center;
+
+    gap:70px;
+
+}
+
+/* ==========================
+   Rating
+========================== */
+
+.rating{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    background:#fff;
+
+    padding:8px 18px;
+
+    border-radius:50px;
+
+    box-shadow:0 8px 24px rgba(0,0,0,.06);
+
+    margin-bottom:18px;
+
+}
+
+.rating span{
+
+    color:#6b7280;
+
+    font-size:14px;
+
+}
+
+/* ==========================
+   Brand
+========================== */
+
+.brand-name{
+
+    color:#2563eb;
+
+    margin-bottom:18px;
+
+    font-size:22px;
+
+}
+
+/* ==========================
+   Hero Title
+========================== */
+
+.hero h1{
+
+    font-size:52px;
+
+    line-height:1.2;
+
+    margin-bottom:25px;
+
+    color:#111827;
+
+}
+
+.hero p{
+
+    color:#6b7280;
+
+    font-size:18px;
+
+    margin-bottom:32px;
+
+}
+
+/* ==========================
+   Hero Feature
+========================== */
+
+.hero-feature{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:14px;
+
+    margin-bottom:40px;
+
+}
+
+.feature-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    background:#fff;
+
+    padding:12px 18px;
+
+    border-radius:12px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.05);
+
+}
+
+/* ==========================
+   Buttons
+========================== */
+
+.hero-btn-group{
+
+    display:flex;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+
+}
+
+.btn{
+
+    display:inline-flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-decoration:none;
+
+    padding:16px 30px;
+
+    border-radius:14px;
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.primary-btn{
+
+    background:#2563eb;
+
+    color:#fff;
+
+}
+
+.primary-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 15px 30px rgba(37,99,235,.25);
+
+}
+
+.secondary-btn{
+
+    background:#fff;
+
+    color:#2563eb;
+
+    border:2px solid #2563eb;
+
+}
+
+.secondary-btn:hover{
+
+    background:#2563eb;
+
+    color:#fff;
+
+}
+
+/* ==========================
+   Hero Image
+========================== */
+
+.hero-right{
+
+    text-align:center;
+
+}
+
+.hero-phone{
+
+    width:100%;
+
+    max-width:460px;
+
+    height:auto;
+
+    filter:drop-shadow(0 20px 50px rgba(0,0,0,.18));
+
+}
